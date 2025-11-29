@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="bg-white p-6 rounded-lg shadow">
+  <h2 class="text-2xl font-bold">Bienvenido, {{ session.usuario }}</h2>
+  <p class="mt-2 text-gray-600">Panel principal. Usa el menú para ir a Clientes.</p>
+</div>
+
+{% endblock %}
